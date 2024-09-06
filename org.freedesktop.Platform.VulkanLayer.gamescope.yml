@@ -78,6 +78,9 @@ modules:
           versions:
             <=: 3.14.24
 
+      - type: patch
+        path: 1429.patch
+
       # Keep stb tracking https://github.com/ValveSoftware/gamescope/blob/master/subprojects/stb.wrap
       - type: archive
         url: https://github.com/nothings/stb/archive/5736b15f7ea0ffb08dd38af21067c314d6a3aae9/stb.tar.gz
